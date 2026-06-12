@@ -1,0 +1,54 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left { width: 52%; }
+  .mode-landscape .sl-right { width: 48%; }
+  .mode-portrait .sl-left { width: 100%; height: 50%; }
+  .mode-portrait .sl-right { width: 100%; height: 50%; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: editorial content -->
+    <div class="sl-left flex flex-col justify-between p-12" style="background:#ffffff;">
+      <!-- Top: wordmark -->
+      <div>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#0EA5E9;">interviewqqq</span>
+      </div>
+
+      <!-- Centre: headline + tagline -->
+      <div>
+        <h1 class="font-black leading-tight mb-5" style="font-size:2.8rem;color:#1E3A5F;">
+          Stop Guessing.<br>Start Reviewing.
+        </h1>
+        <p class="text-lg font-medium leading-relaxed" style="color:#334155;">
+          The interview intelligence layer<br>for hiring teams who make real decisions.
+        </p>
+        <div class="mt-8 h-1 w-16 rounded-full" style="background:#10B981;"></div>
+      </div>
+
+      <!-- Bottom: attribution -->
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: visual anchor -->
+    <div class="sl-right relative overflow-hidden" style="background:#1E3A5F;">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=professional%20hiring%20manager%20reviewing%20structured%20interview%20notes%20on%20a%20sleek%20dashboard%2C%20dark%20navy%20office%2C%20teal%20accent%20lighting%2C%20editorial%20minimal%20style"
+        alt="Interview review dashboard"
+        class="w-full h-full object-cover opacity-60"
+      />
+      <!-- Overlay badge -->
+      <div class="absolute bottom-10 left-10 right-10">
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full" style="background:rgba(14,165,233,0.2);border:1px solid rgba(14,165,233,0.4);">
+          <div class="w-2 h-2 rounded-full" style="background:#10B981;"></div>
+          <span class="text-sm font-semibold" style="color:#e2f4ff;">One place. All opinions. Zero chasing.</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
