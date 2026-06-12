@@ -1,0 +1,96 @@
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-6">
+      <span class="text-xs font-bold tracking-widest uppercase" style="color:#0EA5E9;">North Star Metric</span>
+      <h2 class="text-3xl font-black mt-2" style="color:#1E3A5F;">Weekly Verified Operations</h2>
+      <p class="text-sm mt-2 font-medium px-3 py-1 rounded-full inline-block" style="background:#fef3c7;color:#92400e;">Projected impact — based on your inputs</p>
+    </div>
+
+    <div class="grid grid-cols-2 gap-6 flex-1">
+
+      <!-- Left column: operation definition + formula -->
+      <div class="flex flex-col gap-5">
+
+        <!-- Verified operation definition -->
+        <div class="rounded-2xl p-6" style="background:#f8fafc;border:1px solid #e2e8f0;">
+          <p class="text-xs font-bold tracking-widest uppercase mb-3" style="color:#1E3A5F;">The Verified Operation</p>
+          <p class="text-base font-bold mb-2" style="color:#1E3A5F;">Interview Session Reviewed &amp; Scored</p>
+          <p class="text-sm leading-relaxed" style="color:#475569;">
+            One completed operation = one interviewer submits a structured review (scores + feedback) for a candidate session in interviewqqq. Clicks, logins, and edits do not count.
+          </p>
+        </div>
+
+        <!-- Formula -->
+        <div class="rounded-2xl p-6 flex-1" style="background:#eff6ff;border:1px solid #bfdbfe;">
+          <p class="text-xs font-bold tracking-widest uppercase mb-4" style="color:#0EA5E9;">WVO Formula</p>
+
+          <div class="flex items-center gap-2 flex-wrap mb-3">
+            <span class="px-3 py-1.5 rounded-lg text-sm font-bold" style="background:#fef3c7;color:#92400e;border:1px dashed #d97706;">
+              Interviewers on team
+              <span class="ml-1 text-xs font-normal">(Assumption — adjust this)</span>
+            </span>
+            <span class="text-lg font-bold" style="color:#475569;">×</span>
+            <span class="px-3 py-1.5 rounded-lg text-sm font-bold" style="background:#fef3c7;color:#92400e;border:1px dashed #d97706;">
+              Sessions reviewed/week/interviewer
+              <span class="ml-1 text-xs font-normal">(Assumption — adjust this)</span>
+            </span>
+          </div>
+
+          <div class="flex items-center gap-3 mt-4 p-4 rounded-xl" style="background:#1E3A5F;">
+            <span class="text-sm font-medium" style="color:#94a3b8;">Example:</span>
+            <span class="text-sm" style="color:#e2f4ff;">5 interviewers × 4 sessions/week =</span>
+            <span class="text-lg font-black" style="color:#0EA5E9;">20 ops / week</span>
+          </div>
+
+          <p class="text-xs mt-3" style="color:#64748b;">Replace the example with your team's actual numbers to get your real WVO.</p>
+        </div>
+      </div>
+
+      <!-- Right column: value derivation -->
+      <div class="flex flex-col gap-5">
+
+        <!-- Time value -->
+        <div class="rounded-2xl p-6" style="background:#f0fdf4;border:1px solid #bbf7d0;">
+          <p class="text-xs font-bold tracking-widest uppercase mb-3" style="color:#10B981;">Value per Operation</p>
+          <div class="space-y-2 text-sm" style="color:#14532d;">
+            <p>Time saved per session review: <strong>~25 min</strong> (chasing feedback, collating notes)</p>
+            <p class="text-xs" style="color:#16a34a;">Assumption — adjust this</p>
+          </div>
+          <div class="mt-4 pt-4" style="border-top:1px solid #bbf7d0;">
+            <p class="text-xs font-bold tracking-widest uppercase mb-2" style="color:#10B981;">Weekly value (example)</p>
+            <p class="text-sm" style="color:#14532d;">20 ops × 25 min × <span style="border-bottom:1px dashed #16a34a;">staff hourly cost</span></p>
+            <p class="text-xs mt-1" style="color:#16a34a;">(Assumption — adjust hourly cost to your rate)</p>
+          </div>
+        </div>
+
+        <!-- Annual summary -->
+        <div class="rounded-2xl p-6 flex-1" style="background:#1E3A5F;">
+          <p class="text-xs font-bold tracking-widest uppercase mb-4" style="color:#0EA5E9;">Projected Annual Impact</p>
+
+          <div class="space-y-4">
+            <div class="flex justify-between items-center pb-3" style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <span class="text-sm" style="color:#94a3b8;">Hours reclaimed / year</span>
+              <span class="font-bold" style="color:#ffffff;">20 ops × 25 min × 52 wks</span>
+            </div>
+            <div class="flex justify-between items-center pb-3" style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <span class="text-sm" style="color:#94a3b8;">= hours / year</span>
+              <span class="text-2xl font-black" style="color:#10B981;">433 hrs</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-sm" style="color:#94a3b8;">Hiring quality improvement</span>
+              <span class="text-sm font-bold" style="color:#0EA5E9;">Consistent rubric → fewer bad hires</span>
+            </div>
+          </div>
+
+          <div class="mt-5 p-3 rounded-xl text-xs text-center" style="background:rgba(14,165,233,0.1);color:#94a3b8;">
+            Swap in your team size and hourly rate to get your real number
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
