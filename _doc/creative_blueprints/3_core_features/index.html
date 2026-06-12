@@ -1,0 +1,80 @@
+<style>
+  .sl-chip { cursor:pointer; transition: all 0.15s; }
+  .sl-chip.active { background:#1E3A5F; color:#ffffff; }
+  .sl-chip:not(.active) { background:#f1f5f9; color:#475569; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-6">
+      <span class="text-xs font-bold tracking-widest uppercase" style="color:#0EA5E9;">What it does</span>
+      <h2 class="text-3xl font-black mt-2" style="color:#1E3A5F;">Built for everyone in the loop</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="flex gap-3 mb-7">
+      <span class="sl-chip active px-4 py-2 rounded-full text-sm font-semibold">Hiring Manager</span>
+      <span class="sl-chip px-4 py-2 rounded-full text-sm font-semibold">Recruiter</span>
+      <span class="sl-chip px-4 py-2 rounded-full text-sm font-semibold">Panel Interviewer</span>
+    </div>
+
+    <!-- Feature cards grid -->
+    <div class="grid gap-4 flex-1" style="grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr);">
+
+      <!-- Session Review -->
+      <div class="rounded-2xl p-6 flex flex-col gap-3" style="background:#f8fafc;border:1px solid #e2e8f0;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#1E3A5F;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        </div>
+        <h4 class="font-bold text-base" style="color:#1E3A5F;">Session Review</h4>
+        <p class="text-sm leading-relaxed" style="color:#475569;">Log candidate, role, round, date, and interviewer notes in a structured form. Every session is searchable and retrievable.</p>
+      </div>
+
+      <!-- Scoring Rubric -->
+      <div class="rounded-2xl p-6 flex flex-col gap-3" style="background:#eff6ff;border:1px solid #bfdbfe;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#0EA5E9;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h4 class="font-bold text-base" style="color:#1E3A5F;">Scoring Rubric</h4>
+        <p class="text-sm leading-relaxed" style="color:#475569;">Score candidates on defined criteria — communication, technical fit, culture, role-specific competencies — so every reviewer uses the same scale.</p>
+      </div>
+
+      <!-- Panel Feedback Dashboard -->
+      <div class="rounded-2xl p-6 flex flex-col gap-3" style="background:#f0fdf4;border:1px solid #bbf7d0;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#10B981;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        </div>
+        <h4 class="font-bold text-base" style="color:#1E3A5F;">Panel Feedback Dashboard</h4>
+        <p class="text-sm leading-relaxed" style="color:#475569;">All reviewer scores and comments for a candidate consolidated in one view. No more chasing down opinions from three different channels.</p>
+      </div>
+
+      <!-- Session History -->
+      <div class="rounded-2xl p-6 flex flex-col gap-3" style="background:#faf5ff;border:1px solid #e9d5ff;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#7c3aed;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h4 class="font-bold text-base" style="color:#1E3A5F;">Session History</h4>
+        <p class="text-sm leading-relaxed" style="color:#475569;">Browse past sessions and track candidate progression across interview rounds from first screen to final decision.</p>
+      </div>
+
+      <!-- Feedback Completion Tracking -->
+      <div class="rounded-2xl p-6 flex flex-col gap-3" style="background:#fffbeb;border:1px solid #fde68a;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#d97706;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h4 class="font-bold text-base" style="color:#1E3A5F;">Completion Tracking</h4>
+        <p class="text-sm leading-relaxed" style="color:#475569;">See at a glance which interviewers haven't submitted feedback yet. No more wondering who's still outstanding.</p>
+      </div>
+
+      <!-- MVP scope note -->
+      <div class="rounded-2xl p-6 flex flex-col justify-center items-center gap-2" style="background:#1E3A5F;">
+        <p class="text-sm font-bold text-center" style="color:#e2f4ff;">Review form designed to complete in under 5 minutes post-interview.</p>
+        <div class="w-8 h-0.5 rounded-full" style="background:#0EA5E9;"></div>
+        <p class="text-xs text-center" style="color:#94a3b8;">Text &amp; structured input — no video or transcription required in MVP.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
