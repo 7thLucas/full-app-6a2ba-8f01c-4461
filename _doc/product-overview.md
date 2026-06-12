@@ -22,7 +22,7 @@ InterviewIQ gives every interviewer a structured session review workflow: score 
 5. **Feedback Completion Tracking** — Know which interviewers haven't submitted yet; send reminders
 
 ## Brand & Tone
-- **Name**: InterviewIQ
+- **Name**: interviewqqq
 - **Positioning**: The interview intelligence layer for hiring teams
 - **Tone**: Analytical, clear, calm — no fluff; built for people making real decisions
 - **Colors**: Deep navy primary (#1E3A5F), sky blue secondary (#0EA5E9), emerald accent (#10B981)
