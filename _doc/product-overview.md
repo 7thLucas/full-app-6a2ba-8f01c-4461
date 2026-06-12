@@ -1,7 +1,7 @@
-# InterviewIQ — Product Overview
+# interviewqqq — Product Overview
 
 ## What It Is
-InterviewIQ is an interview session reviewer app that gives hiring teams full visibility into how their interviews are going. It centralizes session review, structured scoring, and panel feedback so hiring decisions are grounded in evidence — not scattered notes or gut feel.
+interviewqqq is an interview session reviewer app that gives hiring teams full visibility into how their interviews are going. It centralizes session review, structured scoring, and panel feedback so hiring decisions are grounded in evidence — not scattered notes or gut feel.
 
 ## The Problem
 Hiring teams fly blind. After interviews, feedback lives in email threads, Slack messages, or interviewers' heads. There's no structured way to review sessions, no consistent scoring, and no single place to see how a candidate is tracking across multiple interviewers. The result: conflicting opinions, bias creep, and bad hires — or missed talent.
